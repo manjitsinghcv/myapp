@@ -1,0 +1,24 @@
+.share_box{
+	position:fixed;
+
+	top:50%;
+	left:90%;
+	right:10%;
+
+  width: 0px; /* Use only border style */
+  height: 38%;
+  float: right; 
+
+
+}
+
+.hhhh {   
+    transform:rotate(90deg);
+    -o-transform:rotate(90deg);
+    -moz-transform:rotate(90deg);
+    -webkit-transform:rotate(90deg);
+}
+
+
+		
+		

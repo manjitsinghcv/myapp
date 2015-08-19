@@ -13,6 +13,7 @@
     <!-- endbuild -->
     <!-- build:css(.tmp) styles/main.css -->
     <link rel="stylesheet" href="styles/main.css">
+	    <link rel="stylesheet" href="styles/style.css">
     <!-- endbuild -->
   </head>
   <body ng-app="futureApp">
@@ -52,6 +53,7 @@
     </div>
 
     <div class="container">
+	
     <div ng-view=""></div>
     </div>
 	
@@ -69,6 +71,30 @@
       </div>
     </div>
 
+ <button   type="button" class="btn btn-primary btn-lg share_box" data-toggle="modal" data-target="#myModal" >
+  <span class="hhhh"> c</span>
+   <br ><span class="hhhh">o</span><br> <span class="hhhh">n</span> <br> <span class="hhhh">t</span> <br> <span class="hhhh">a</span> <br> <span class="hhhh">c</span> <br>  <span class="hhhh">t</span> <br> <span class="hhhh">u</span> <br> <span class="hhhh">s</span> 
+	  
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
 
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID -->
      <script>
